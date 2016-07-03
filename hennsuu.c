@@ -10,10 +10,12 @@ int main(){
 		scanf("%d",&a[i]);
 		
 		sum +=a[i];
-	
-		int max=a[0];
-		int min=a[0];
+		}
 
+	int max=a[0];
+	int min=a[0];
+
+	for(i=0; i<10; i++){
 		if(a[i]>max){
 		max=a[i];
 		}
@@ -22,7 +24,7 @@ int main(){
 		min=a[i];
 		}
 	}
-
+	
 
 	printf("sum: %d\n",sum);
 	printf("max: %d\n",max);
