@@ -15,10 +15,10 @@ int main(){
 	scanf("%d", &z);
 
 
-	int A;
-	A = (x+y+z)/3;
+	int t;
+	t = (x+y+z)/3;
 
-	printf("Your Average Score is %d \n", A);
+	printf("Your Average Score is %d \n", t);
 
 
 }
