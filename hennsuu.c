@@ -4,14 +4,15 @@ int main(){
 
 	int a[10],i;
 	int sum=0;
-	int max=a[0];
-	int min=a[0];
+
 	
 	for(i=0; i<10; i++){
 		scanf("%d",&a[i]);
 		
 		sum +=a[i];
 	
+		int max=a[0];
+		int min=a[0];
 
 		if(a[i]>max){
 		max=a[i];
