@@ -3,9 +3,20 @@
 int main() {
 	
 	int x; //宣言
-	x=3;   //代入
+	scanf("%d", &x);   //代入
 
-	printf("Hello World %d \n",x );
+	int y;
+	scanf("%d", &y);
+
+	int z;
+	//z = x + y;
+	//z = x - y;
+	//z = x * y;
+	z = (x + y) / 2;
+	z = z + 5;
+
+
+	printf("z : %d \n",z);
 
 
 	//printf("Hello World!\n");
